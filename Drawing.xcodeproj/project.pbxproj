@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		652B3FCF202E2B33006C76BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652B3FCE202E2B33006C76BE /* AppDelegate.swift */; };
-		652B3FD1202E2B33006C76BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652B3FD0202E2B33006C76BE /* ViewController.swift */; };
 		652B3FD4202E2B33006C76BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 652B3FD2202E2B33006C76BE /* Main.storyboard */; };
 		652B3FD6202E2B33006C76BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 652B3FD5202E2B33006C76BE /* Assets.xcassets */; };
 		652B3FD9202E2B33006C76BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 652B3FD7202E2B33006C76BE /* LaunchScreen.storyboard */; };
+		652B3FE320339FEF006C76BE /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652B3FE220339FEF006C76BE /* ViewController1.swift */; };
+		652B3FE520339FFC006C76BE /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652B3FE420339FFC006C76BE /* ViewController2.swift */; };
+		652B3FE72033C6DA006C76BE /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652B3FE62033C6DA006C76BE /* CircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		652B3FCB202E2B33006C76BE /* Drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		652B3FCE202E2B33006C76BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		652B3FD0202E2B33006C76BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		652B3FD3202E2B33006C76BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		652B3FD5202E2B33006C76BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		652B3FD8202E2B33006C76BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		652B3FDA202E2B33006C76BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		652B3FE220339FEF006C76BE /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		652B3FE420339FFC006C76BE /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		652B3FE62033C6DA006C76BE /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				652B3FCE202E2B33006C76BE /* AppDelegate.swift */,
-				652B3FD0202E2B33006C76BE /* ViewController.swift */,
 				652B3FD2202E2B33006C76BE /* Main.storyboard */,
+				652B3FE220339FEF006C76BE /* ViewController1.swift */,
+				652B3FE62033C6DA006C76BE /* CircleView.swift */,
+				652B3FE420339FFC006C76BE /* ViewController2.swift */,
 				652B3FD5202E2B33006C76BE /* Assets.xcassets */,
 				652B3FD7202E2B33006C76BE /* LaunchScreen.storyboard */,
 				652B3FDA202E2B33006C76BE /* Info.plist */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				652B3FD1202E2B33006C76BE /* ViewController.swift in Sources */,
+				652B3FE72033C6DA006C76BE /* CircleView.swift in Sources */,
+				652B3FE320339FEF006C76BE /* ViewController1.swift in Sources */,
 				652B3FCF202E2B33006C76BE /* AppDelegate.swift in Sources */,
+				652B3FE520339FFC006C76BE /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
